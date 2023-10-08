@@ -29,16 +29,16 @@ plt.figure(figsize=(12, 6))
 # Графік амплітуди
 plt.subplot(2, 1, 1)
 plt.plot(amplitude)
-plt.xlabel("Отсчеты")
-plt.ylabel("Амплитуда")
-plt.title("Амплитуда первого фрагмента")
+plt.xlabel("Відлік")
+plt.ylabel("Амплітуда")
+plt.title("Амплітуда першого фрагменту")
 
 # Графік фази
 plt.subplot(2, 1, 2)
 plt.plot(phase)
-plt.xlabel("Отсчеты")
-plt.ylabel("Фаза (радианы)")
-plt.title("Фаза первого фрагмента")
+plt.xlabel("Відлік")
+plt.ylabel("Фаза (в радіанах)")
+plt.title("Фаза першого фрагменту")
 
 plt.tight_layout()
 plt.show()
